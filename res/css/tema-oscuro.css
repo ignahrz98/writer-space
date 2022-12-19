@@ -1,0 +1,169 @@
+/*
+	TEMA OSCURO
+*/
+
+body /*		Body HTML	*/ 
+{
+	background: #191919; /*Background ligeramente gris*/
+	color: white;
+}
+
+p > a 
+{
+	color: white;
+}
+
+p > a:hover 
+{
+	color: white;
+}
+
+body .contenedor-section-aside /*	Contenedor que contiene al section y aside, generalmente	*/
+{
+	background: #333333; /*Background blanco*/
+}
+
+footer
+{
+	background: #333333;
+}
+
+nav /*	Barra de navegación	*/
+{
+	background: #333333;
+}
+
+.form-control
+{
+	background-color: #4c4c4c;
+	color: white;
+}
+
+.enlace-menu:hover 
+{
+	color: white; /*Color de la fuente blanco*/
+	background-color: #191919 !important; /*Background verde*/
+}
+
+.input-buscador /*Input del buscador en el menú superior*/
+{
+	background-color: #333333; /*Background verde*/
+	border-color: white; /*Color del borde blanco*/
+	color: white; /*Color de la fuente blanco*/
+}
+
+.btn-buscador /*Botón de busqueda en el menú superior*/
+{
+	background-color: #191919; /*Background blanco*/
+	border-color: white; /*Color del borde blanco*/
+	color: white; /*Color de la fuente negro*/
+}
+
+.btn-buscador:hover
+{
+	background-color: #191919;
+	color: white;
+}
+
+.jumbotron
+{
+	background-color: #191919;
+}
+
+.jumbotron > a,
+.jumbotron > a:hover
+{
+	color: white;
+	text-decoration: none;
+}
+
+.nav-tabs
+{
+	background-color: #4c4c4c;
+}
+
+.nav-tabs > li > a
+{
+	color: white;
+}
+
+.nav-tabs > li > a:hover
+{
+	color: #191919;
+}
+
+.panel-default > .panel-heading
+{
+	background-color: #4c4c4c;
+	color: white;
+}
+
+.panel-default > .panel-body
+{
+	background-color: #333333; /*Background blanco*/
+}
+
+.modal-content
+{
+	background-color: #333333; /*Background blanco*/
+}
+
+.supertitulo
+{
+	background-color: #4c4c4c;
+}
+
+.superpanel-titulo
+{
+	color: white;
+}
+
+.superpanel-titulo:hover
+{
+	color: #999999;
+}
+
+.list-group > .list-group-item
+{
+	background-color: #333333;
+}
+
+.list-group > .list-group-item > a
+{
+	color: white;
+}
+
+.breadcrumb
+{
+	background-color: #4c4c4c;
+}
+
+.breadcrumb > li > a
+{
+	color: white;
+}
+
+.breadcrumb > .active
+{
+	color: #999999;
+}
+
+.card-centrado
+{
+	background-color: #4c4c4c;
+}
+
+.card-centrado > form > fieldset > legend
+{
+	color: white;
+}
+
+.table-bordered a,
+.table-bordered a:hover
+{
+	color: white;
+}
+
+.cuerpo-lectura tbody tr:hover {
+	background-color: #191919;
+}

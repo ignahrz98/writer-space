@@ -1,0 +1,409 @@
+/*
+	PERSONALIZACIÓN DE LOS ESTILOS DE WriterSpace.
+*/
+
+* /*	Resetear los margenes	*/
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body /*		Body HTML	*/ 
+{
+	background: #e5e5e5; /*Background ligeramente gris*/
+}
+
+/*
+	Estilos contenedor del section y aside.
+*/
+body .contenedor-section-aside /*	Contenedor que contiene al section y aside, generalmente	*/
+{
+	background: white; /*Background blanco*/
+}
+
+footer /*	Footer HTML 	*/ 
+{
+	background: #215421; /*Background verde*/
+	color: white; /*Color de la fuente blanco*/
+	text-align: center; /*Alineación del texto al centro*/
+	padding-top: 20px; /*Padding superior*/
+	padding-bottom: 20px; /*Padding inferior*/
+	margin-top: 20px; /*Margin superior*/
+	font-weight: bold; /*Font weight en negrita*/
+}
+
+nav /*	Barra de navegación	*/
+{
+   background-color: #215421; /*Background verde*/
+   /*padding: 10px;*/ /*Padding general*/
+}
+
+nav a /*	Enlaces en la barra de navegación	*/
+{
+  text-decoration:none; /*No mostrar decoraciones de links*/
+  /*font-size: 15px;*/ /*Tamaño de la fuente*/
+  color: white; /*Color de la fuente en blanco*/
+  /*font-weight: bold;*/ /*Fuente en negrita*/
+}
+
+/*
+	Cuando se le pasa el mouse por encima de los enlaces del menú superior.
+*/
+.enlace-menu:hover 
+{
+	color: white; /*Color de la fuente blanco*/
+	background-color: #386b38 !important; /*Background verde*/
+}
+
+.navbar-brand:hover 
+{
+	color: white; /*Color de la fuente blanco*/
+}
+
+.input-buscador /*Input del buscador en el menú superior*/
+{
+	background-color: #215421; /*Background verde*/
+	border-color: white; /*Color del borde blanco*/
+	color: white; /*Color de la fuente blanco*/
+}
+
+.btn-buscador /*Botón de busqueda en el menú superior*/
+{
+	background-color: white; /*Background blanco*/
+	border-color: white; /*Color del borde blanco*/
+	color: black; /*Color de la fuente negro*/
+}
+
+.icon-bar /*	Color del icono de menu de hamburguesa	*/
+{
+	background-color: white; /*Mostrarse de color blanco*/
+}
+
+legend /*	legend HTML	*/
+{
+	font-weight: bold; /*Texto en negrita*/
+	color: black; /*Color de la fuente negro*/
+}
+
+table /*	table HTML	*/
+{
+	width: 100%; /*Ancho de la tabla*/
+	padding: 5px; /*Padding de la tabla*/
+	border-radius: 10px; /*Bordes redondeados*/
+	text-align: center; /*Alineación del texto al centro*/
+}
+
+#articulo_cuerpo /*	Tamaño del textarea donde se crean/editan los artículos	*/
+{
+	height: 400px; /*Altura del textarea*/
+}
+
+section a /*	Enlaces dentro de section 	*/
+{
+    text-decoration: none; /*Eliminar el subrayado de los enlaces*/
+    color: #082264; /*Color de la fuente*/
+    font-family: arial; /*Fuente de la letra*/
+}
+
+section a:hover /*		Al pasar el mouse por los enlaces dentro de section 	*/
+{
+	text-decoration: underline; /*Añadir subrayado*/
+	color: #123a2c; /*Color de la fuente*/
+}
+
+section p /*	Párrafos dentro de section*/
+{
+	font-family: sans-serif; /*Fuente de la letra*/
+}
+
+fieldset /*		fieldset HTML	*/
+{
+	border-radius: 10px; /*Bordes redondeados*/
+}
+
+textarea /*		textarea HTML	*/
+{
+	font-size: 20px; /*Tamaño de la fuente*/
+	resize: none; /*No permitir cambiar tamaño*/
+}
+
+thead th 
+{
+	text-align: center;
+	background-color: gray;
+	color: white;
+}
+
+.cabeza 
+{
+	background-color: gray;
+	background-image: url("../img/fondo_02.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.cuerpo-lectura 
+{
+	margin-top: 60px;
+}
+
+.cuerpo-lectura blockquote p 
+{
+	color: gray;
+	font-family: "serif";
+	font-size: 40px;
+}
+
+.titulo-lectura 
+{
+	
+	font-size: 30px;
+	text-align: center;
+}
+
+.cuerpo-lectura ul, 
+.cuerpo-lectura ol 
+{
+	margin-left: 50px;
+	font-size: 20px;
+}
+
+.panel-fuentes ul,
+.panel-fuentes ol 
+{
+	margin-left: 20px;
+}
+
+.cuerpo-lectura p,
+.cuerpo-lectura li
+{
+	font-size: 16px;
+}
+
+.cuerpo-lectura h1,
+.cuerpo-lectura h2,
+.cuerpo-lectura h3,
+.cuerpo-lectura h4,
+.cuerpo-lectura h5,
+.cuerpo-lectura h6,
+.cuerpo-lectura table 
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.introduccion-articulo-leer
+{
+	font-weight: bold; /*Font weight en negrita*/
+	font-style: italic; /*Estilo Italic*/
+}
+
+.supertitulo /*	Un estilo de titulo	*/
+{
+	background-color: #215421; /*Background verde*/
+	text-align: center; /*Alineación de texto al centro*/
+	padding: 20px; /*Padding general*/
+	border-radius: 100px; /*Bordes redondeados*/
+	color: white; /*Color de la fuente blanco*/
+	font-weight: bold; /*Texto en negrita*/
+}
+
+.superbanner-index /*	Banner a mostrar en index*/
+{
+	background-color: #215421; /*Background verde*/
+	margin-bottom: 40px; /*Margin inferior*/
+	padding-top: 50px; /*Padding superior*/
+	padding-bottom: 50px; /*Padding inferior*/
+}
+
+.parrafo-superbanner-index /*	Párrafo que se muestra en el superbanner del index 	*/
+{
+	color: white; /*Color de la fuente blanco*/
+	font-size: 18px; /*Tamaño de la fuente*/
+	text-align: justify; /*Justificar alineación del texto*/
+	font-weight: bold; /*Texto en negrita*/
+}
+
+.titulo-superbanner-index /*	Titulo del banner en index 	*/
+{
+	color: white; /*Color de la fuente blanco*/
+	font-weight: bold; /*Texto en negrita*/
+	text-align: center; /*Alineación del texto al centro*/
+}
+
+.tarjeta-de-informacion-index /*Tarjeta de informacion en index*/
+{
+	background: white; /*Background blanco*/
+	margin-bottom: 20px; /*Margin inferior*/
+	text-align: center; /*Alineación del texto al centro*/
+}
+
+.form-control, 
+.btn 
+{
+	border-radius: 100px; /*Redondear los bordes*/
+}
+
+.cuerpo-lectura td {
+	border: solid 1px;
+	border-color: gray;
+	padding: 10px;
+	text-align: left;
+}
+
+.cuerpo-lectura tbody tr:hover {
+	background-color: #f4f4f4;
+}
+
+.cuerpo-lectura thead {
+	background-color: gray;
+	color: white;
+}
+
+.link-footer /*		Estilos de link en el footer 	*/ 
+{
+	color: white; /*Color de la fuente: blanco.*/
+}
+
+.link-footer:hover /*	Cuando el mouse pasa por encima del link en el footer 	*/
+{
+	color: white; /*Color de la fuente blanco*/
+	text-decoration: none; /*Quitar el subrayado del link */
+}
+
+.label_lluvia_etiquetas 
+{
+	color: gray;
+}
+
+.label_lluvia_etiquetas:hover 
+{
+	color: black;
+	text-decoration: none;
+}
+
+.etiqueta-1 
+{
+	font-size: 22px;
+}
+
+.etiqueta-2 
+{
+
+	font-size: 24px;
+}
+
+.etiqueta-3 
+{
+	font-size: 26px;
+}
+
+.etiqueta-4 
+{
+	font-size: 28px;
+}
+
+.etiqueta-5 
+{
+	font-size: 30px;
+}
+
+.etiqueta-6 
+{
+	font-size: 32px;
+}
+
+.etiqueta-7 
+{
+	font-size: 34px;
+}
+
+.etiqueta-8 
+{
+	font-size: 36px;
+}
+
+.etiqueta-9 
+{
+	font-size: 38px;
+}
+
+.etiqueta-10 
+{
+	font-size: 40px;
+}
+
+.card-centrado  /*	Tarjeta centrada	*/
+{
+	background-color: #e5e5e5; /*Background ligeramente*/
+	padding: 30px; /*Padding general*/
+	margin-top: 20px; /*Margin superior*/
+	margin-bottom: 20px; /*Margin inferior*/
+	border-radius: 20px; /*Bordes redondeados*/
+}
+
+.card-centrado:hover 
+{
+	box-shadow: 0 1px 20px 0 rgba(0,0,0,12); /*Efecto de sombra*/
+}
+
+.foto-perfil 
+{
+	margin-top: -70px;
+}
+
+.lectura-subir
+{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.lectura-subir a,
+.lectura-subir a:hover 
+{
+	color: gray;
+	text-decoration: none;
+}
+
+.superpanel /*Panel para mostrar articulos*/
+{
+	border: solid 1px; /*Añadir borde*/
+	border-color: gray; /*Borde gris*/
+	margin-top: 40px; /*Margins superior*/
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,12); /*Efecto de sombra*/
+}
+
+.superpanel-titulo /*Titulo del superpannel*/
+{
+	color: black; /*Color de la fuente*/
+}
+
+.superpanel-titulo:hover /*Cuando se pasa el mouse por el titulo del superpanel*/
+{
+	color: black;
+	text-decoration: none;
+}
+
+.tags-con-links 
+{
+	color: white;
+}
+
+.tags-con-links:hover 
+{
+	color: white;
+	text-decoration: none;
+}
+
+.label-tags-con-links
+{
+	margin-left: 5px;
+}
+
+.textarea-articulo-introduccion,
+.textarea-usuario-presentacion /*Anular el redondeo de bordes para este textarea*/
+{
+	border-radius: 0px;
+}
